@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #FC9B29;
+    --grey: #666666
+    --black: #000000
+    --white: #FFFFFF;
+}
+
+.exemplo-de-variaveis-css{
+    background-color: var(--primary);
+}
