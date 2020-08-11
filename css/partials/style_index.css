@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
+
+header div#half_up{
+    height: 90px;
+    background-color: var( --color-backgroud-in-white);
+    display: flex;
+
+}
+
+header div#half_up img#logo{
+    width: 200px;
+    margin-top: 0.8rem;
+    margin-left: 9.2rem;
+    margin-bottom: 0.8rem;
+}
+
+
+header div#half_up div.search_space #textSearch{
+
+    margin-top: 2.6rem;
+    margin-left: 200px;
+
+    background-color: var(--color-background-in-white);
+    padding-left:5px;
+    font-size:18px;
+    border:1px solid black;
+    border-radius: 10px;
+    height:40px;
+    width:400px;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+header div#half_up img#login{
+    margin-top: 2.2rem;
+    margin-left: 220px;
+    width: 50px;
+    height: 40px;
+}
+
+header div#half_up img#bag{
+    margin-top: 2.2rem;
+    margin-left: 1.6rem;
+    width: 60px;
+    height: 40px;
+}
+
+header div#half_low{
+    width: 100vw;
+    height: 60px;
+    background-color: var( --color-background-in-black);
+}
+
+header div#half_low {
+    display: flex;
+}
+
+header div#half_low img#menu{
+    width: 50px;
+    height: 50px;
+    margin-top: 0.4rem;
+    margin-left: 150px;
+}
+
+header div#half_low ol{
+    margin-top: 1.8rem;
+    margin-left: 50px;
+}
+
+header div#half_low ol li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 150px;
+}
+
+header div#half_low ol li p{
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-background-in-white);
+    font-size: 2.3rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer div.fote{
+    margin-bottom:;
+    width: 100vw;
+    height: 100px;
+    background-color: var(--color-background-in-black);
+}
+
+footer div.fote div.texting{
+    padding-top: 1.8rem;
+}
+
+footer div.fote div.texting p{
+    color: var(--color-background-in-white);
+    
+    text-align: center;
+
+    padding-top: 0.8rem;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+
+}
