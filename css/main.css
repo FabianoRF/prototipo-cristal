@@ -2,6 +2,7 @@
 
     --color-orange-buttons: #FC9B29;
     --color-background-in-white: #FFFFFF;
+    --color-background-in-grey: #F2F2F2;
     --color-background-in-white-focus: #F4F4F4;
     --color-background-in-black: #000000;
     --color-shadows-pictures-box:  #666666;
@@ -18,4 +19,119 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-text-description);
+}
+
+/*ver se deixa no main ou cria outro css com estilos globais*/
+
+
+
+header div#half-up{
+    height: 70px;
+    background-color: var( --color-backgroud-in-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 70px;
+}
+
+header div#half-up img#logo{
+    width: 150px;
+    height: 50px;
+}
+
+header div#half-up div.search-space{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    height: calc(100% + 3rem);
+    border: 0;
+
+    background-color: var(--color-background-in-white-focus);
+    border-radius: 1.6rem;
+}
+
+header div#half-up div.search-space input#textSearch{
+    background: none;
+    font-size:18px;
+    border: 0;
+    height:40px;
+    width:400px;
+    padding: 0 2rem;
+    cursor: pointer;
+}
+
+header div#half-up div.search-space input#textSearch:focus{
+    outline: 0;
+}
+header div#half-up div.search-space input#textSearch:focus div.search-space{
+    border:1px solid black !important;
+}
+
+header div.links-user-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 200px;
+}
+
+
+header div#half-low{
+    width: 100vw;
+    height: 100%;
+    background-color: var( --color-background-in-black);
+}
+
+header div#half-low ol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 70px;
+}
+
+header div#half-low img#menu{
+    width: 50px;
+    height: 50px;
+}
+
+header div#half-low ol li {
+    list-style: none;
+}
+
+header div#half-low ol li p{
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-background-in-white);
+    font-size: 2.0rem;
+}
+
+footer {
+    width: 100vw;
+    background-color: var(--color-background-in-black);
+}
+
+footer div.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+footer div.text-container div.texting p{
+    color: var(--color-background-in-white);
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+footer div.socials-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 70px;
+    padding-bottom: 2rem;
 }

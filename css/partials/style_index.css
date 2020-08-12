@@ -1,98 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
-header div#half-up{
-    height: 90px;
-    background-color: var( --color-backgroud-in-white);
+
+
+.banner-container{
+    background: url('/images/banner.jpg') no-repeat;
+    background-size: 100%;
+    height: 100vh;
+
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 70px;
-}
-
-header div#half-up img#logo{
-    width: 200px;
-}
-
-header div#half-up div.search-space input#textSearch{
-
-    background-color: var(--color-background-in-white-focus);
-    font-size:18px;
-    border: 0;
-    border-radius: 1.6rem;
-    height:40px;
-    width:400px;
-
-    padding-left: 5rem;
-
-    cursor: pointer;
-}
-
-header div#half-up div.search-space input#textSearch:focus{
-    background-color: var(--color-background-in-white-focus);
-    border:1px solid black;
-    outline: 0;
-}
-
-header div.links-user-container{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 200px;
-}
-
-
-header div#half-low{
-    width: 100vw;
-    height: 60px;
-    background-color: var( --color-background-in-black);
-}
-
-header div#half-low ol{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 70px;
-}
-
-header div#half-low img#menu{
-    width: 50px;
-    height: 50px;
-}
-
-header div#half-low ol li {
-    list-style: none;
-}
-
-header div#half-low ol li p{
-    font-family: 'Roboto', sans-serif;
-    color: var(--color-background-in-white);
-    font-size: 2.0rem;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
-    background-color: var(--color-background-in-black);
-}
-
-footer div.text-container {
-    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 2rem;
 }
 
-footer div.text-container div.texting p{
+.spot-title{
+    font-family: 'Dancing Script', cursive;
+}
+
+.banner-container span{
+    font-size: 10rem;
     color: var(--color-background-in-white);
-    font-size: 1.6rem;
-    text-align: center;
-    font-weight: 400;
+    text-shadow: 0.1rem 0.11rem rgba(0, 0, 0, 0.2);
+    
+
 }
 
-footer div.socials-container{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin: 0 70px;
-    padding-bottom: 2rem;
+.banner-container span + span{
+    padding-top: 8rem;
+    font-size: 3rem;
 }
+
+main{
+    background-color: var(--color-background-in-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+
+.product-container{
+    background-color: var(--color-background-in-white);
+    margin: 1.0rem;
+    padding: 1.6rem;
+}
+
+.product-container:hover .p-title, 
+.product-container:hover .p-parcels, 
+.product-container:hover .p-price{
+    text-decoration-line: underline;
+}
+
+.product-container .p-image{
+    transition: opacity 0.3s;
+}
+
+
+.product-container:hover .p-image{
+    opacity: 0.9;
+}
+
+.product-container .product-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0.2rem;
+}
+
+.product-container .product-text .p-title{
+    font-size: 1.6rem ;
+    color: var(--color-text-description);
+}
+
+.product-container .product-text .p-parcels{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.product-container .product-text .p-price{
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: var(--color-text-price-primary);
+}
+
