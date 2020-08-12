@@ -1,7 +1,8 @@
 :root{
 
-    --color-orage-buttons: #FC9B29;
+    --color-orange-buttons: #FC9B29;
     --color-background-in-white: #FFFFFF;
+    --color-background-in-white-focus: #F4F4F4;
     --color-background-in-black: #000000;
     --color-shadows-pictures-box:  #666666;
     --color-text-price-primary: #FFBC11;
@@ -16,4 +17,5 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
