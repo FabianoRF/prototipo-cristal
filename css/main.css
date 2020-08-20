@@ -8,7 +8,9 @@
     --color-shadows-pictures-box:  #666666;
     --color-text-price-primary: #FFBC11;
     --color-text-description: #000000;
+    --color-text-grey: #f666666;
     --color-text-buttons:#FFFFFF;
+    --color-shadow-black: #000000a4;
 
     font-size: 60%;
 
@@ -29,7 +31,11 @@ a{
 
 /*ver se deixa no main ou cria outro css com estilos globais*/
 
+header{
+    box-shadow: 1px 1px 5px #000000c4;
+    width: 100vw;
 
+}
 
 header div#half-up{
     height: 70px;
@@ -69,9 +75,13 @@ header div#half-up div.search-space input#textSearch{
 header div#half-up div.search-space input#textSearch:focus{
     outline: 0;
 }
-header div#half-up div.search-space input#textSearch:focus div.search-space{
-    border:1px solid black !important;
+
+
+#half-up .search-space #textSearch:focus .search-space{
+    border: 1px solid black !important;
+
 }
+
 
 header div.links-user-container{
     display: flex;
@@ -83,7 +93,6 @@ header div.links-user-container{
 
 header div#half-low{
     width: 100vw;
-    height: 100%;
     background-color: var( --color-background-in-black);
 }
 
@@ -91,7 +100,7 @@ header div#half-low ol{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 70px;
+    margin: 0 70px;
 }
 
 header div#half-low img#menu{
@@ -110,8 +119,8 @@ header div#half-low ol li p{
 }
 
 footer {
-    width: 100vw;
     background-color: var(--color-background-in-black);
+    width: 100vw;
 }
 
 footer div.text-container {
