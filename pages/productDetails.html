@@ -12,37 +12,43 @@
     <link rel="stylesheet" href="../css/partials/style_product_details.css">
 </head>
 <body>
-    <header>
-        <div id="half-up">
-            <a href="index.html"><img id="logo" src="/images/logocristal.png" alt="Cristal Moda Feminina"></a>
-            
+  <header>
+    <div id="half-up">
+        <a href="index.html"><img id="logo" src="/images/logocristal.png" alt="Cristal Moda Feminina"></a>
+        
 
-            <form action="" id="search">
-                <div class="search-space">
-                    <img src="../images/icons/search-icon.svg" alt="Procurar">
-                    <input type="text" id="textSearch" placeholder="O que você procura ?"/>
-                </div>
-            </form>
-
-            <!-- Verificar seção de links -->
-            <div class="links-user-container">
-                <img id="login" src="../images/icons/login-icon.svg" alt="Login">
-                <img  id="bag" src="../images/icons/bag-icon.svg" alt="Sacola">
+        <form action="" id="search">
+            <div class="search-space">
+                <img src="../images/icons/search-icon.svg" alt="Procurar">
+                <input type="text" id="textSearch" placeholder="O que você procura ?"/>
             </div>
-            
-        </div> 
+        </form>
 
-        <div id="half-low">
-            <!-- Verificar seção de links -->
-            <ol>
-                <img id="menu" src="/images/icons/menu-trace.png" alt="Menu">
-                <li><p>Home</p></li>
-                <li><p>Blusas</p></li>
-                <li><p>Calças</p></li>
-                <li><p>Calçados</p></li>
-            </ol>
+        <!-- Verificar seção de links -->
+        <div class="links-user-container">
+            <a href="cadastro.html">
+                <img id="login" src="/images/icons/login-icon.svg" alt="Login">
+            </a>
+            <a href="bag.html">
+                <img  id="bag" src="/images/icons/bag-icon.svg" alt="Sacola">
+            </a>
         </div>
-    </header>
+        
+    </div> 
+
+    <div id="half-low">
+        <!-- Verificar seção de links -->
+        <ol>
+            <img id="menu" src="/images/icons/menu-trace.png" alt="Menu">
+            <a href="../index.html">
+                <li><p>Home</p></li>
+            </a>
+            <li><p>Blusas</p></li>
+            <li><p>Calças</p></li>
+            <li><p>Calçados</p></li>
+        </ol>
+    </div>
+</header>
     
     <main>
       <section class="product-contrast">
@@ -66,21 +72,26 @@
           </div>
           <div>
             <label>Selecione o Tamanho:</label>
-            <form action="">
+            <br><br>
+            <form action="" class="check-size-container">
               <div class="check-size">
-                <label for="check1">35:</label>
+                <label for="check1">34: </label>
                 <input type="checkbox" name="" id="check1">
               </div>
               <div class="check-size">
-                <label for="check1">M:</label>
+                <label for="check1">35: </label>
                 <input type="checkbox" name="" id="check1">
               </div>
               <div class="check-size">
-                <label for="check1">G:</label>
+                <label for="check1">36: </label>
                 <input type="checkbox" name="" id="check1">
               </div>
               <div class="check-size">
-                <label for="check1">GG:</label>
+                <label for="check1">37: </label>
+                <input type="checkbox" name="" id="check1">
+              </div>
+              <div class="check-size">
+                <label for="check1">38: </label>
                 <input type="checkbox" name="" id="check1">
               </div>
               
@@ -92,8 +103,8 @@
             <span class="product-parcels">Até 4x de R$ 20.99</span>
             <span class="product-price">R$ 99,90</span>
           </div>
+          <a href="bag.html"><button class="buy-button">Comprar</button></a>
 
-          <button class="buy-button">Comprar</button>
         </div>
       </section>
 
@@ -108,7 +119,7 @@
         <h1>Produtos Relacionados:</h1>
         <div class="product-catalog">
 
-        <a href="pages/productDetails.html">
+        <a href="productDetails.html">
           <div class="product-container">
               <img class="p-image" src="../images/product1.png" alt="Produto">
 
@@ -119,7 +130,7 @@
               </div>
           </div>
         </a>
-        <a href="pages/productDetails.html">
+        <a href="productDetails.html">
           <div class="product-container">
               <img class="p-image" src="../images/product1.png" alt="Produto">
 
@@ -130,7 +141,7 @@
               </div>
           </div>
         </a>
-        <a href="pages/productDetails.html">
+        <a href="productDetails.html">
           <div class="product-container">
               <img class="p-image" src="../images/product1.png" alt="Produto">
 
@@ -141,7 +152,7 @@
               </div>
           </div>
         </a>
-        <a href="pages/productDetails.html">
+        <a href="productDetails.html">
           <div class="product-container">
               <img class="p-image" src="../images/product1.png" alt="Produto">
 
