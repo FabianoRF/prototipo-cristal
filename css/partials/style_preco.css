@@ -216,3 +216,27 @@ main div.cupom section#preco p#divisor{
     float: right;
 }
 
+.buy-button-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.buy-button-container #button-finally-buy{
+    height: 6rem;
+    width: 500px;
+
+    border: 0;
+    background-color: var(--color-orange-buttons);
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: var(--color-text-buttons);
+    border-radius: 10px;
+    box-shadow: 0px 0.2px 2px var(--color-shadow-black);
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.buy-button-container #button-finally-buy:hover{
+    opacity: 0.8;
+}

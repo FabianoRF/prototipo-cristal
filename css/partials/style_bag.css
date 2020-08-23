@@ -56,9 +56,6 @@ main{
   justify-content: space-between;
 }
 
-.main-grid .final-price-container .calculate-cep #input-cep{
-  
-}
 
 .main-grid .final-price-container .calculate-cep .btn-cep{
   height: 2rem;
