@@ -95,6 +95,7 @@ div#email input:focus,
 div#cpf input:focus,
 div#name input:focus{
     border: none;
+    outline: 0;
 }
 
 /* Menores */

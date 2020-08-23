@@ -8,7 +8,7 @@
 
     <link rel="short icon" href="../images/icons/diamonds.webp">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/partials/style_cadastro.css">
+    <link rel="stylesheet" href="../css/partials/style_preco.css">
 
 </head>
 <body>
@@ -43,56 +43,49 @@
             </ol>
         </div>
     </header>
-    
 
-    <main>
+   <main>
+        
+        
 
-        <div class="mensage">
-             <h1>Cadastre-se:</h1>
+        <div class="cupom">
+            <h1 id="titulo_1">Endereço da entrega:</h1>
+            <section id="info">
+                <h2>João da Silva</h2>
+                <p> 37980-000 </p>
+                <p> Rua Exemplar do Exemplo, 100, casa</p>
+                <p> Centro</p>
+                <p> Cássia, MG</p>
 
-            <h3>Por favor preencha alguns dados sobre você, será bem rapidinho! </h3>
+                <a href="../pages/preco.html">Alterar Endereço</a>
+
+            </section>
+
+            <section id="barra"></section>
+
+            <h1 id="titulo_2">Resumo do Pedido:</h1>
+            <section id="preco">
+                <h2>Produtos</h2>
+
+                <div id="num_produ">
+                    <p id="text_1">2 Produtos</p>
+                    <p id="text_2">R$ 230,90</p>
+                </div>
+
+                <div id="frete">
+                    <p id="text_3">Frete</p>
+                    <p id="text_4">R$ 15,00</p>
+                </div>
+
+                <div id="total">
+                    <p id="text_5">Total</p>
+                    <p id="text_6">R$ 245,90</p>
+                </div>
+
+                <p id="divisor">Em até 3x de 81,96</p>
+
+            </section>
         </div>
-
-        <div class="campin">
- 
-            <div id="email">
-                <label for="">Email</label>
-                <input type="text" id="email">
-            </div>
-
-            <div id="cpf">
-                <label for="">CPF</label>
-                <input type="text" id="cpf">
-            </div>
-
-            <div id="name">
-                <label for="">Nome Completo</label>
-                <input type="text" id="name">
-            </div>
-
-            <div id="date">
-                <label for="">Data de nascimento</label>
-                <input type="date" id="date" placeholder="DD/MM/AAAA">
-            </div>
-
-            <div id="senha">
-                <label for="">Senha(minímo de 6 caracteres)</label>
-                <input type="text" id="senha">
-            </div>
-
-            <div id="conf_senha">
-                <label for="">Confirmar senha</label>
-                <input type="text" id="conf_senha">
-            </div>
-            
-        </div>
-       
-
-        <div class="button">
-            <button>Continuar</button>
-        </div>
-
-
     </main>
 
     <footer id="login">

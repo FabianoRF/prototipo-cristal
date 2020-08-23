@@ -8,7 +8,7 @@
 
     <link rel="short icon" href="../images/icons/diamonds.webp">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/partials/style_cadastro.css">
+    <link rel="stylesheet" href="../css/partials/style_cad_end.css">
 
 </head>
 <body>
@@ -43,56 +43,64 @@
             </ol>
         </div>
     </header>
-    
 
-    <main>
-
-        <div class="mensage">
-             <h1>Cadastre-se:</h1>
-
-            <h3>Por favor preencha alguns dados sobre você, será bem rapidinho! </h3>
+   <main>
+        <div id="titulo">
+            <h1>Endereço de entrega</h1>
+            <p>Por favor preencha alguns dados sobre você, será bem rapidinho!</p>
         </div>
 
-        <div class="campin">
- 
-            <div id="email">
-                <label for="">Email</label>
-                <input type="text" id="email">
-            </div>
-
-            <div id="cpf">
-                <label for="">CPF</label>
-                <input type="text" id="cpf">
-            </div>
-
-            <div id="name">
-                <label for="">Nome Completo</label>
+        <div class="campos">
+            <div id="nome">
+                <label for=""> Nome do destinatario</label>
                 <input type="text" id="name">
             </div>
 
-            <div id="date">
-                <label for="">Data de nascimento</label>
-                <input type="date" id="date" placeholder="DD/MM/AAAA">
+            <div id="cep">
+                <label for=""> CEP</label>
+                <input type="text" id="name">
             </div>
 
-            <div id="senha">
-                <label for="">Senha(minímo de 6 caracteres)</label>
-                <input type="text" id="senha">
+            <div id="rua">
+                <div id="camp_1">
+                    <label for=""> Rua</label>
+                    <input type="text" id="name">
+                </div>
+                
+                <div id="camp_2">
+                    <label for=""> Número</label>
+                    <input type="text" id="name">
+                </div>
+               
             </div>
 
-            <div id="conf_senha">
-                <label for="">Confirmar senha</label>
-                <input type="text" id="conf_senha">
+            <div id="bairro">
+                <label for=""> Bairro</label>
+                <input type="text" id="name">
+
             </div>
+
+            <div id="complemento">
+                <label for="">Complemento</label>
+                <input type="text" id="name">
+            </div>
+
+            <div id="cidade">
+                <div id="cid">
+                    <label for=""> Cidade</label>
+                    <input type="text" id="name">
+                </div>
+
+                <div id="est">
+                    <label for="">Estado</label>
+                    <input type="text" id="name">
+                </div>                
+            </div>            
             
+            <div class="button">
+                <a href="../pages/cadastro_endereco.html"><button>Continuar</button></a> 
+            </div>
         </div>
-       
-
-        <div class="button">
-            <button>Continuar</button>
-        </div>
-
-
     </main>
 
     <footer id="login">
